@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <style>
 
+@media(max-width:770px) {
+  span a
+}
+
   a:hover {color: pink;}
   a:active {color: black;
           font-weight: bold;}
@@ -16,6 +20,7 @@
         grid-template-columns:1fr 120px 120px 120px;
         margin:40;}
   #header h2{margin-left:20px}
+.menu{margin-top:20px}
 
   #article{margin:100px}
   #article h3{margin-top: 50px}}
@@ -23,12 +28,12 @@
   </style>
 </head>
 <body>
-
+냠
 <span id="header">
     <span><h2><a href="index.html">Jungwon lim</a></h2></span>
-    <span style="margin-top:20px"><a href="1.html">HOME</a></span>
-    <span style="margin-top:20px"><a href="2.html">PORTFOLIO</a></span>
-    <span style="margin-top:20px; padding-left:20px"><a href="3.html">INFO</a></span>
+    <span><a href="1.html" class="menu">HOME</a></span>
+    <span><a href="2.html" class="menu">PORTFOLIO</a></span>
+    <span style="padding-left:20px"><a href="3.html" class="menu">INFO</a></span>
 </span>
 <a href="mediaquery.html">미디어쿼리구경</a>
 <div id="article">
